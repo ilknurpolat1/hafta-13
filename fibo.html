@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sonuç</title>
+</head>
+<body>
+<script>
+function teklerıtopla(s, t = 0) {
+    if (s <= 10) {
+        console.log("Toplam sonuç: " + t);
+        return;
+    }
+
+    if (s % 2 == 1) {
+        console.log(s);
+        t += s;
+    }
+
+    teklerıtopla(s - 1, t);
+}
+
+teklerıtopla(99);
+</script>
+</body>
+</html>
+
