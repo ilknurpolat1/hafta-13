@@ -1,0 +1,2 @@
+Bu örnete teklerıtopla() adlı bir fonksiyon içerir. Amaç, verilen sayıdan başlayarak 10’a
+kadar olan tüm tek sayıları ekrana yazdırmak ve toplamaktır. Ders içerisinden bazıları tam tersi yönde sisteme yükleme yaptı. Console log kullandık fonksiyon oluşturduk
